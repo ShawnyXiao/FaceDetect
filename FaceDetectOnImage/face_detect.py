@@ -1,4 +1,5 @@
 import cv2
+import sys
 
 
 def load_image(image_path):
@@ -38,7 +39,7 @@ def show_then_destroy_image(image):
 
 
 def main():
-    image_path = '../resources/photo.jpg'
+    image_path = sys.argv[1]
     cascade_path = '../resources/haarcascade_frontalface_default.xml'
 
     image = load_image(image_path)
