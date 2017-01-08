@@ -10,31 +10,31 @@ Firstly, clone this repository on your disk. You could open the command prompt w
 git clone https://github.com/ShawnyXiao/FaceDetect.git
 ```
 
-### FaceDetectOnImage
+### Detect faces on an image
 
-#### On given photo
+#### On a given image
 
-In command prompt, type as follows, if you want to defect faces on the given photo:
+In command prompt, type as follows, if you want to detect faces on the given image:
 
 ```
 cd FaceDetectOnImage
-python face_detect.py ../resources/photo.jpg
+python face_detect.py ../resources/image.jpg
 ```
 
 Then we could get a processed image:
 
 ![The processed image](pic/on_image.png)
 
-#### On your own photo
+#### On your own image
 
-If you want to defect faces on your own photo, you could type:
+If you want to detect faces on your own image, you could type:
 
 ```
 cd FaceDetectOnImage
 python face_detect.py xxx
 ```
 
-In above codes, "xxx" is the location of your own photo.
+In above codes, "xxx" is the location of your own image.
 
 ### FaceDetectOnVideo
 

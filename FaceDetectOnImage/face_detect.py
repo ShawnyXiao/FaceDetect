@@ -22,8 +22,8 @@ def detect_faces(detector, gray_scale_image):
         gray_scale_image,
         scaleFactor=1.15,
         minNeighbors=5,
-        minSize=(30, 30)
-        # flags=cv2.cv.CV_HAAR_SCALE_IMAGE
+        minSize=(30, 30),
+        flags=cv2.cv.CV_HAAR_SCALE_IMAGE
     )
 
 
