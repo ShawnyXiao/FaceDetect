@@ -32,7 +32,7 @@ def draw_rectangles(image, faces):
         cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
 
-def show_then_destroy_image(image):
+def show_wait_destroy(image):
     cv2.imshow("Faces found!", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
@@ -50,7 +50,7 @@ def main():
         print "Faces have been not found!"
         return
     draw_rectangles(image, faces)
-    show_then_destroy_image(image)
+    show_wait_destroy(image)
 
 
 if __name__ == '__main__':
