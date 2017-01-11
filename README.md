@@ -38,7 +38,29 @@ In above codes, "xxx" is the location of your own image.
 
 ### 2. Detect faces on a video
 
-...
+#### i. On a given video
+
+In command prompt, type as follows, if you want to detect faces on a given video:
+
+```
+cd FaceDetectOnVideo
+python face_detect.py ..\resources\video.mp4
+```
+
+The faces-framed window, like the animation as follows, will be opened. If you want to exit, press the key ESC.
+
+![The camera](pic/on_video.gif)
+
+#### ii. On your own video
+
+If you want to detect faces on your own video, you could type:
+
+```
+cd FaceDetectOnVideo
+python face_detect.py xxx
+```
+
+In above codes, "xxx" is the location of your own video.
 
 ### 3. Detect faces on a camera
 
